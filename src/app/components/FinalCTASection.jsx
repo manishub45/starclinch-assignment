@@ -3,7 +3,7 @@ export default function FinalCTASection({
   title = "20+ Talented Folks",
   subtitle = "We’ve worked with talented folks across India and made events memorable.",
   buttonText = "View All",
-  // optional image background: tum chaho to use karo, ya hatao
+  
   image = "/images/bg-cta.jpg"
 }) {
   return (
@@ -20,7 +20,7 @@ export default function FinalCTASection({
       <div className="absolute top-0 right-0 w-40 h-40 md:w-60 md:h-60 bg-pink-700 opacity-30 rounded-full -mr-20 -mt-20"></div>
       <div className="absolute bottom-0 left-0 w-40 h-40 md:w-60 md:h-60 bg-purple-700 opacity-30 rounded-full -ml-20 -mb-20"></div>
 
-      {/* Optional background image overlay (agar chaho) */}
+      
       {/* <img src={image} alt="" className="absolute inset-0 w-full h-full object-cover opacity-10 rounded-full" /> */}
     </section>
   );
